@@ -1,0 +1,121 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: linear-gradient(135deg, #f46726, #e68e01); 
+}
+
+.game-container {
+  text-align: center;
+  background-color: #0535a6; 
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+h1 {
+  color: #000000; 
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+p {
+  color: #ffffff; 
+  font-size: 18px;
+}
+
+
+#click-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    appearance: none;
+    background-color: #1515b8;
+    border-radius: 50%;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#680808 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #36395A;
+    cursor: pointer;
+    display: inline-flex;
+    height: 100px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+  background-color: #ff0000; 
+  color: #ffffff; 
+}
+
+#click-button:hover {
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #ba0782 0 -3px 0 inset;
+  transform: translateY(-2px);
+  background-color: #f82c2c; 
+}
+
+#start-button {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    appearance: none;
+    background-color: #ffffff;
+    border-radius: 4px;
+  background-color: #28a745;
+  color: #ffffff; 
+}
+
+#start-button:hover {
+  background-color: #218838; 
+}
+
+/* Exit Button */
+#exitButton {
+  font-size: 18px;
+    padding: 10px 20px;
+    margin: 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    align-items: center;
+    appearance: none;
+    background-color: #ffffff;
+    border-radius: 4px;
+  background-color: #28a745;
+  color: white;
+}
+
+#exitButton:hover {
+  background-color: #218838;
+}
+
+#exitButton:active {
+  background-color: #1565C0;
+}
+
+
+
+

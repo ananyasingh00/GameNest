@@ -1,0 +1,98 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6ecf0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+/* Profile Container */
+.profile-container {
+    width: 90%;
+    max-width: 600px;
+    background: #fff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Header Section */
+.header {
+    position: relative;
+}
+
+.cover-photo {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.profile-pic {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: absolute;
+    bottom: -40px;
+    left: 20px;
+}
+
+/* Profile Info */
+.profile-info {
+    padding: 50px 20px 20px 20px; /* Add space above for profile picture */
+    text-align: left;
+}
+
+.username {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+}
+
+.handle {
+    font-size: 0.9rem;
+    color: #657786;
+    margin-bottom: 10px;
+}
+
+.bio {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.9rem;
+    color: #1da1f2;
+    margin-top: 10px;
+}
+
+/* Tweets Section */
+.tweets {
+    padding: 20px;
+    border-top: 1px solid #e1e8ed;
+}
+
+.tweet {
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #e1e8ed;
+}
+
+.tweet p {
+    margin-bottom: 5px;
+}
+
+.tweet span {
+    color: #657786;
+    font-size: 0.8rem;
+}
